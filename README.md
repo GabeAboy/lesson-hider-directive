@@ -81,7 +81,8 @@ angular.module('directivePractice')
     templateUrl: 'lessonHider.html',
     restrict: 'E',
     link: function( scope, element, attributes ) {
-
+      //`$scope` of your directive, html element that wraps your directive, object containing all the properties and values of the attributes on
+      //your directive in the DOM
     }
   }
 
@@ -337,4 +338,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
